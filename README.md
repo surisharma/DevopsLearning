@@ -18,7 +18,8 @@ o	User Creation: Added a new user named rock.
 o	Permissions: Changed test.txt permissions to 655 (Read/Write for owner, Read/Execute for group and others).
 o	Ownership: Successfully transferred file ownership to the rock user and group.
 Note: I encountered a small typo in command #29 (chwon), which was immediately corrected in command #30 (chown).
-3. System Monitoring
+3. Use vi & cat command for editing and reading file.
+4. System Monitoring
 I utilized several Linux utilities to check system health and resource usage.
 Command	Purpose
 top / htop	Real-time process monitoring and CPU usage.

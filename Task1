@@ -1,0 +1,38 @@
+Task 1: Linux Environment Setup & Exploration
+##################Command Log file###########################
+ 1  clear
+    2  pwd
+    3  ls
+    4  cd
+    5  clear
+    6  pwd
+    7  ls
+    8  cd snap/
+    9  ls
+   10  cd
+   11  mkdir elevate
+   12  cd elevate/
+   13  touch dev1.txt
+   14  touch dev2.txt
+   15  ls
+   16  rm dev2.txt 
+   17  ls
+   18  cd 
+   19  rm -Rf elevate/
+   20  ls
+   21  ls -l
+   22  mkdir elvate
+   23  cd elvate/
+   24  touch test.txt
+   25  ls -l
+   26  chmod 655 test.txt 
+   27  ls -l
+   28  useradd rock
+   29  chwon rock:rock test.txt 
+   30  chown rock:rock test.txt 
+   31  ls -l
+   32  top
+   33  htop
+   34  df -h
+   35  free -m
+   36  history

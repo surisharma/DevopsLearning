@@ -1,0 +1,10 @@
+Network Analysis Report
+System OS: Ubuntu 22.04 LTS / Linux
+Action	Command Used	Result / Observation
+Check IP	ip a	Local IP identified as 192.168.1.15.
+Ping Test	ping -c 4 8.8.8.8	4 packets sent, 0% loss, Avg RTT: 22ms.
+Open Ports	ss -tuln	Port 22 (SSH) is listening on 0.0.0.0.
+DNS Lookup	dig google.com	Resolved to IP 142.250.xxx.xxx.
+Path Trace	traceroute 8.8.8.8	Completed in 12 hops.
+
+Failure Simulation: After running ip link set eth0 down, all outbound pings returned "Network is unreachable." Connectivity restored successfully after re-enabling the interface.
